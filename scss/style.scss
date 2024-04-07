@@ -33,6 +33,11 @@
     padding: 5px;
   }
 
+  &.size_120_600 {
+    width: 120px;
+    height: 600px;
+  }
+
   .logo {
     position: absolute;
     width: 50px;
@@ -47,6 +52,12 @@
     }
 
     &.size_300_600 {
+      width: 70px;
+    }
+
+    &.size_120_600 {
+      right: 10%;
+      top: 2%;
       width: 70px;
     }
 
@@ -129,6 +140,10 @@
     }
 
     &.size_300_600 {
+      bottom: 5%;
+    }
+
+    &.size_120_600 {
       bottom: 4%;
     }
 
@@ -204,6 +219,11 @@
       width: 50%;
       height: 100%;
       border-radius: 0 0 0px 20px;
+    }
+
+    &.size_120_600 {
+      width: 100%;
+      height: 65%;
     }
 
     .picture {
@@ -290,6 +310,32 @@
             }
           }
         }
+
+        &.size_120_600 {
+          top: -10%;
+          left: -190%;
+          height: 130%;
+          width: auto;
+          animation: mirror_120_600 5s ease-in-out infinite;
+
+          @keyframes mirror_120_600 {
+            0% {
+              top: -10%;
+              left: -190%;
+              height: 130%;
+            }
+            50% {
+              top: -20%;
+              left: -230%;
+              height: 150%;
+            }
+            100% {
+              top: -10%;
+              left: -190%;
+              height: 130%;
+            }
+          }
+        }
       }
 
       &.heart {
@@ -300,6 +346,36 @@
         &.size_997_250 {
           top: -20%;
           transform: scale(1.2);
+        }
+
+        &.size_120_600 {
+          top: 0;
+          left: -240%;
+          height: 100%;
+          width: auto;
+          animation: heart_120_600 5s ease-in-out infinite;
+
+          @keyframes heart_120_600 {
+            0% {
+              top: -0%;
+              height: 100%;
+              width: auto;
+              left: -240%;
+            }
+
+            50% {
+              top: -10%;
+              height: 110%;
+              width: auto;
+              left: -270%;
+            }
+            100% {
+              top: -0%;
+              height: 100%;
+              width: auto;
+              left: -240%;
+            }
+          }
         }
 
         @keyframes heart {
@@ -401,6 +477,36 @@
             }
           }
         }
+
+        &.size_120_600 {
+          height: 130%;
+          width: auto;
+          top: -15%;
+          left: -305%;
+          animation: stairs_120_600 5s ease-in-out infinite;
+
+          @keyframes stairs_120_600 {
+            0% {
+              height: 130%;
+              width: auto;
+              top: -15%;
+              left: -305%;
+            }
+
+            50% {
+              height: 140%;
+              width: auto;
+              top: -20%;
+              left: -345%;
+            }
+            100% {
+              height: 130%;
+              width: auto;
+              top: -15%;
+              left: -305%;
+            }
+          }
+        }
       }
     }
   }
@@ -430,6 +536,12 @@
     height: auto;
     left: 51%;
     transform: translateX(5%);
+  }
+
+  &.size_120_600 {
+    top: 66%;
+    left: 10%;
+    width: 85%;
   }
 
   &.text_01 {
