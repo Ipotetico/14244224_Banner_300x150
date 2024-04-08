@@ -144,6 +144,10 @@ table {
   background-color: white;
   padding: 5px;
 }
+.container.size_997_90 {
+  width: 997px;
+  height: 90px;
+}
 .container.size_300_150 {
   width: 300px;
   height: 150px;
@@ -155,6 +159,10 @@ table {
 .container.size_300_600 {
   width: 300px;
   height: 600px;
+}
+.container.size_997_90 {
+  width: 997px;
+  height: 90px;
 }
 .container.size_997_250 {
   width: 997px;
@@ -185,6 +193,11 @@ table {
   right: 10%;
   top: 2%;
   width: 70px;
+}
+.container .logo.size_997_90 {
+  top: 12%;
+  width: 70px;
+  left: 2%;
 }
 .container .logo.size_997_250 {
   width: 70px;
@@ -309,13 +322,198 @@ table {
   height: 100%;
   background-color: #e6f5fa;
   border-radius: 0 20px 0 20px;
+  overflow: hidden;
+}
+.container .frame.size_997_90 {
+  display: grid;
+  grid-template-columns: 0.75fr 1fr 0.54fr;
+  grid-template-rows: 1fr;
+}
+.container .frame.size_997_90 .foto {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+.container .frame.size_997_90 .foto .single_image {
+  transform: translate(-12%, 6%) scale(0.8);
+  position: absolute;
+}
+.container .frame.size_997_90 .foto .single_image.picture_mirror {
+  animation: picture_mirror 5s ease-in-out infinite;
+}
+@keyframes picture_mirror {
+  0% {
+    transform: translate(-12%, 6%) scale(0.8);
+  }
+  50% {
+    transform: translate(-12%, 6%) scale(0.9);
+  }
+  100% {
+    transform: translate(-12%, 6%) scale(0.8);
+  }
+}
+.container .frame.size_997_90 .foto .single_image.picture_heart {
+  transform: translate(-20%, 6%) scale(0.6);
+  position: absolute;
+  animation: picture_heart 5s ease-in-out infinite;
+}
+@keyframes picture_heart {
+  0% {
+    transform: translate(-20%, 6%) scale(0.6);
+  }
+  50% {
+    transform: translate(-20%, 7%) scale(0.7);
+  }
+  100% {
+    transform: translate(-20%, 6%) scale(0.6);
+  }
+}
+.container .frame.size_997_90 .foto .single_image.picture_stairs {
+  transform: translate(-20%, 1%) scale(0.6);
+  position: absolute;
+  animation: picture_stairs 5s ease-in-out infinite;
+}
+@keyframes picture_stairs {
+  0% {
+    transform: translate(-20%, 1%) scale(0.6);
+  }
+  50% {
+    transform: translate(-20%, 2%) scale(0.7);
+  }
+  100% {
+    transform: translate(-20%, 1%) scale(0.6);
+  }
+}
+.container .frame.size_997_90 .texts {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container .frame.size_997_90 .texts .single_text {
+  position: absolute;
+  height: 90%;
+  left: 5%;
+}
+.container .frame.size_997_90 .texts .single_text.text_01 {
+  animation: text_01 21s linear infinite;
+}
+@keyframes text_01 {
+  0% {
+    opacity: 0;
+  }
+  5% {
+    opacity: 1;
+  }
+  28% {
+    opacity: 1;
+  }
+  33% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.container .frame.size_997_90 .texts .single_text.text_02 {
+  animation: text_02 21s linear infinite;
+}
+@keyframes text_02 {
+  0% {
+    opacity: 0;
+  }
+  28% {
+    opacity: 0;
+  }
+  33% {
+    opacity: 1;
+  }
+  66% {
+    opacity: 1;
+  }
+  71% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.container .frame.size_997_90 .texts .single_text.text_03 {
+  animation: text_03 21s linear infinite;
+}
+@keyframes text_03 {
+  0% {
+    opacity: 0;
+  }
+  28% {
+    opacity: 0;
+  }
+  33% {
+    opacity: 0;
+  }
+  66% {
+    opacity: 0;
+  }
+  71% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.container .frame.size_997_90 .cta_997_90 {
+  width: 100%;
+  height: 100%;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 10px;
+}
+.container .frame.size_997_90 .cta_997_90 .button {
+  height: 65%;
+  animation: cta_997_90 21s ease-in-out infinite;
+}
+@keyframes cta_997_90 {
+  0% {
+    height: 65%;
+  }
+  70% {
+    height: 65%;
+  }
+  75% {
+    height: 70%;
+  }
+  80% {
+    height: 65%;
+  }
+  85% {
+    height: 70%;
+  }
+  90% {
+    height: 65%;
+  }
+  95% {
+    height: 70%;
+  }
+  100% {
+    height: 65%;
+  }
 }
 .container .picture_frame {
+  position: relative;
   width: 100%;
   height: 55%;
-  background-color: coral;
   border-radius: 0 20px 0 0px;
-  position: relative;
   overflow: hidden;
 }
 .container .picture_frame.size_300_150 {
@@ -341,6 +539,9 @@ table {
   top: -60%;
   left: -10%;
   animation: mirror 5s ease-in-out infinite;
+}
+.container .picture_frame .picture.mirror.size_997_90 {
+  animation: mirror_997_90 5s ease-in-out infinite;
 }
 .container .picture_frame .picture.mirror.size_997_250 {
   transform: scale(1.07);
