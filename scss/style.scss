@@ -1,5 +1,7 @@
 @import "./reset.scss";
 
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
 * {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -96,7 +98,7 @@
     transform: translateX(-50%);
     z-index: 1;
     bottom: 8%;
-    animation: cta 21s infinite;
+    animation: cta 12s infinite;
     transform-origin: center;
     animation-timing-function: linear;
 
@@ -129,7 +131,7 @@
     }
 
     &.size_300_150 {
-      animation: cta_300_150 21s infinite;
+      animation: cta_300_150 12s infinite;
       width: 65%;
 
       @keyframes cta_300_150 {
@@ -174,7 +176,7 @@
       right: 0;
       transform: translateX(5%);
       transform-origin: center;
-      animation: cta_997_250 21s infinite;
+      animation: cta_997_250 12s infinite;
 
       @keyframes cta_997_250 {
         0% {
@@ -312,7 +314,7 @@
           left: 5%;
 
           &.text_01 {
-            animation: text_01 21s linear infinite;
+            animation: text_01 12s linear infinite;
 
             @keyframes text_01 {
               0% {
@@ -334,7 +336,7 @@
           }
 
           &.text_02 {
-            animation: text_02 21s linear infinite;
+            animation: text_02 12s linear infinite;
 
             @keyframes text_02 {
               0% {
@@ -359,7 +361,7 @@
           }
 
           &.text_03 {
-            animation: text_03 21s linear infinite;
+            animation: text_03 12s linear infinite;
 
             @keyframes text_03 {
               0% {
@@ -398,7 +400,7 @@
 
         .button {
           height: 65%;
-          animation: cta_997_90 21s ease-in-out infinite;
+          animation: cta_997_90 12s ease-in-out infinite;
 
           @keyframes cta_997_90 {
             0% {
@@ -783,7 +785,7 @@
   }
 
   &.text_01 {
-    animation: text01 21s linear infinite;
+    animation: text01 12s linear infinite;
 
     @keyframes text01 {
       0% {
@@ -804,7 +806,7 @@
     }
   }
   &.text_02 {
-    animation: text02 21s linear infinite;
+    animation: text02 12s linear infinite;
 
     @keyframes text02 {
       0% {
@@ -828,7 +830,7 @@
     }
   }
   &.text_03 {
-    animation: text03 21s linear infinite;
+    animation: text03 12s linear infinite;
 
     @keyframes text03 {
       0% {

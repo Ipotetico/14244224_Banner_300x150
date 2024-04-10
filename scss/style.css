@@ -2,6 +2,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 html,
 body,
 div,
@@ -210,7 +211,7 @@ table {
   transform: translateX(-50%);
   z-index: 1;
   bottom: 8%;
-  animation: cta 21s infinite;
+  animation: cta 12s infinite;
   transform-origin: center;
   animation-timing-function: linear;
 }
@@ -241,7 +242,7 @@ table {
   }
 }
 .container .cta.size_300_150 {
-  animation: cta_300_150 21s infinite;
+  animation: cta_300_150 12s infinite;
   width: 65%;
 }
 @keyframes cta_300_150 {
@@ -281,7 +282,7 @@ table {
   right: 0;
   transform: translateX(5%);
   transform-origin: center;
-  animation: cta_997_250 21s infinite;
+  animation: cta_997_250 12s infinite;
 }
 @keyframes cta_997_250 {
   0% {
@@ -402,7 +403,7 @@ table {
   left: 5%;
 }
 .container .frame.size_997_90 .texts .single_text.text_01 {
-  animation: text_01 21s linear infinite;
+  animation: text_01 12s linear infinite;
 }
 @keyframes text_01 {
   0% {
@@ -422,7 +423,7 @@ table {
   }
 }
 .container .frame.size_997_90 .texts .single_text.text_02 {
-  animation: text_02 21s linear infinite;
+  animation: text_02 12s linear infinite;
 }
 @keyframes text_02 {
   0% {
@@ -445,7 +446,7 @@ table {
   }
 }
 .container .frame.size_997_90 .texts .single_text.text_03 {
-  animation: text_03 21s linear infinite;
+  animation: text_03 12s linear infinite;
 }
 @keyframes text_03 {
   0% {
@@ -481,7 +482,7 @@ table {
 }
 .container .frame.size_997_90 .cta_997_90 .button {
   height: 65%;
-  animation: cta_997_90 21s ease-in-out infinite;
+  animation: cta_997_90 12s ease-in-out infinite;
 }
 @keyframes cta_997_90 {
   0% {
@@ -816,7 +817,7 @@ table {
   width: 85%;
 }
 .text.text_01 {
-  animation: text01 21s linear infinite;
+  animation: text01 12s linear infinite;
 }
 @keyframes text01 {
   0% {
@@ -836,7 +837,7 @@ table {
   }
 }
 .text.text_02 {
-  animation: text02 21s linear infinite;
+  animation: text02 12s linear infinite;
 }
 @keyframes text02 {
   0% {
@@ -859,7 +860,7 @@ table {
   }
 }
 .text.text_03 {
-  animation: text03 21s linear infinite;
+  animation: text03 12s linear infinite;
 }
 @keyframes text03 {
   0% {
